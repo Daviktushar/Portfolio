@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+
+  .about-section {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+  }
+
+  .about-container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+
+  .about-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .about-title {
+      font-size: 2rem;
+    }
+
+    .about-text {
+      font-size: 1rem;
+    }
+  }
