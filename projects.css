@@ -10,24 +10,24 @@ body {
     background-color: #f9f9f9;
   }
 
-  .blog-container {
+  .project-container {
     max-width: 800px;
     margin: auto;
   }
 
-  .blog-container h2 {
+  .project-container h2 {
     text-align: center;
     color: #2c3e50;
     margin-bottom: 0.25rem;
   }
 
-  .blog-container p.subtitle {
+  .project-container p.subtitle {
     text-align: center;
     color: #777;
     margin-bottom: 2rem;
   }
 
-  .blog-post {
+  .project-post {
     background: white;
     padding: 1.5rem;
     border-radius: 8px;
@@ -36,22 +36,22 @@ body {
     transition: transform 0.2s ease;
   }
 
-  .blog-post:hover {
+  .project-post:hover {
     transform: translateY(-4px);
   }
 
-  .blog-post h3 {
+  .project-post h3 {
     color: #2980b9;
     margin-top: 0;
   }
 
-  .blog-post .date {
+  .project-post .date {
     color: #888;
     font-size: 0.9rem;
     margin-bottom: 1rem;
   }
 
-  .blog-post p {
+  .project-post p {
     line-height: 1.6;
   }
 
